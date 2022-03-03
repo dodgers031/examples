@@ -42,20 +42,6 @@ const movieList = [
       imdbRating: 8.5
     }
   ];
-
-  // Understand the array of objects
-  // Print the first object in the array
-  console.log(movieList[0]);
-  // Print the title of the first movie
-  console.log(movieList[0].title);
-  //Print imdbRating of the third movie
-  console.log("Third movie imdb rating is:" ,movieList[2].imdbRating);
-  //Print amount of movies there are
-  console.log("Number of movies:", movieList.length)
-  // Discuss Arrays
-  const anArray = [1,2,3,4];
-  anArray.push(5);
-
-  console.log(anArray);
-
-  
+  // TODO: Make an array of the titles of movies released before 2000
+  const moviesBefore2000 = movieList.filter(amovie => amovie.year < 2000);
+  console.log(moviesBefore2000);
