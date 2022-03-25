@@ -1,0 +1,12 @@
+table,tr,td{
+    border:solid;
+}
+
+td {
+    text-align: center;
+    width: 30px;
+}
+
+.bgBlue {
+    background-color: lightblue;
+}
