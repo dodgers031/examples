@@ -1,12 +1,3 @@
-table,tr,td{
-    border:solid;
-}
-
-td {
-    text-align: center;
-    width: 30px;
-}
-
-.bgBlue {
-    background-color: lightblue;
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
